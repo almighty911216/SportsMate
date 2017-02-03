@@ -8,17 +8,16 @@ import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.view.LayoutInflater;
-import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
@@ -142,7 +141,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                     case 1:
                         // open
                         //梨꾪똿諛??낆옣
-                        Intent intent = new Intent(getApplicationContext(), ChatroomActivity.class);
+                        Intent intent = new Intent(getApplicationContext(), ChatActivity.class);
                         startActivity(intent);
                         break;
                 }

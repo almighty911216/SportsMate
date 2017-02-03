@@ -68,6 +68,7 @@
         <item>사이클</item>
         <item>테니스</item>
     </string-array>
+    <string name="title_activity_chat">ChatActivity</string>
 
 </resources>
 

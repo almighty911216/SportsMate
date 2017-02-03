@@ -1,4 +1,4 @@
-package com.dinfree.chat;
+package git.comalmighty911216mustmeetnow.github.sportmate2;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,24 +8,22 @@ import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.ArrayList;
 
-import com.google.gson.*;
+import com.google.gson.Gson;
 
-public class MultiChatServer {
+import git.comalmighty911216mustmeetnow.github.sportmate2.MultiChatServer.ChatThread;
 
+public class MainServer {
 	// 서버 소켓 및 클라이언트 연결 소켓 
 	private ServerSocket serverSocket = null;
 	private Socket socket = null;
-	private static int SERVERPORT = 9999;
+	private static int SERVERPORT = 6740;
 	
 	// 연결된 클라이언트 스레드를 관리하기 위한 ArrayList
 	private ArrayList<ChatThread> chatlist = new ArrayList<ChatThread>();
 	
-	public static void main(String[] args){
-		MultiChatServer server = new MultiChatServer();
-		server.start();
-	}
+	//임시 디비
 	
-		
+	
 	// 멀티챗 메인 프로그램 부
 	public void start() {
 		try {
@@ -35,7 +33,8 @@ public class MultiChatServer {
 			
 			// 무한 루프를 돌면서 클라이언트 연결을 기다림
 			while(true) {
-				socket = serverSocket.accept();				
+				socket = serverSocket.accept();			
+				System.out.println(socket.getInetAddress() + " " + socket.getPort() + " 참여");
 				// 연결된 클라이언트에 대해 쓰레드 클래스 생성
 				ChatThread chat = new ChatThread();
 				// 클라이언트 리스트 추가
@@ -91,13 +90,21 @@ public class MultiChatServer {
 					// 로그아웃 메시지 인 경우
 					if(m.getType().equals("logout")) {
 						chatlist.remove(this);
-						msgSendAll(gson.toJson(new Message(m.getId(),"","님이 종료 했습니다.","server")));
+						msgSendAll(gson.toJson(new Message(m.getId(), ""," 님이 로그아웃 하셨습니다.", "server")));
 						// 해당 클라이언트 스레드 종료로 인해 status 를 false 로 설정
 						status = false;
 					}
-					// 로그인 메시지 인 경우
+					// 로그인할 경우
 					else if(m.getType().equals("login")) {
-						msgSendAll(gson.toJson(new Message(m.getId(),"","님이 로그인 했습니다.","server")));
+						msgSendAll(gson.toJson(new Message(m.getId(), ""," 님이 로그인 했습니다.", "server")));
+					}
+					// 방을 만들 경우
+					else if(m.getType().equals("create")) {
+						msgSendAll(gson.toJson(new Message(m.getId(), ""," 님이 방을 만들었습니다.", "server")));
+					}
+					// 방에 들어갈 경우
+					else if(m.getType().equals("enter")) {
+						msgSendAll(gson.toJson(new Message(m.getId(), ""," 님이 입장 하셨습니다.", "server")));
 					}
 					// 그밖의 경우 즉 일반 메시지인 경우
 					else {

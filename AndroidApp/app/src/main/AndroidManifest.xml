@@ -46,7 +46,10 @@
         <activity
             android:name=".EditProfileActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".ChatroomActivity"></activity>
+        <activity
+            android:name=".ChatActivity"
+            android:label="@string/title_activity_chat"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
