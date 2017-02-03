@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:gravity="center_vertical"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/sSport_img"
+        android:src="@drawable/ic_menu_camera"/>
+
+    <TextView
+        android:gravity="center_vertical"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/sName_tv"
+        android:text="이름"/>
+
+    <TextView
+        android:gravity="center_vertical"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/sAddr_tv"
+        android:text="지역"/>
+
+
+    <TextView
+        android:gravity="center_vertical"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/sDate_tv"
+        android:text="일"/>
+
+    <TextView
+        android:gravity="center_vertical"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/sTime_tv"
+        android:text="시"/>
+
+    <TextView
+        android:gravity="center_vertical"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/sNum_tv"
+        android:text="인원"/>
+
+</LinearLayout>

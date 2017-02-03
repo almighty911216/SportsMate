@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="compact-calendar-view-1.9.8">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.sundeepk/compact-calendar-view/1.9.8/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.sundeepk/compact-calendar-view/1.9.8/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.sundeepk/compact-calendar-view/1.9.8/5bd0f49a023637de923ad6d33edcfcf22608ce3a/compact-calendar-view-1.9.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

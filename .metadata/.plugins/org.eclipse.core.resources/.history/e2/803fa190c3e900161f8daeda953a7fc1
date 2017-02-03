@@ -1,0 +1,5 @@
+import org.json.simple.JSONObject;
+
+public class LoadingServer {
+	JSONObject users;
+}

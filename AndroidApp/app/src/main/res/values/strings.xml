@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">SportMate2</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">설정</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string-array name="address">
+        <item>도봉구</item>
+        <item>노원구</item>
+        <item>강북구</item>
+        <item>성북구</item>
+        <item>은평구</item>
+        <item>종로구</item>
+        <item>중랑구</item>
+        <item>동대문구</item>
+        <item>서대문구</item>
+        <item>마포구</item>
+        <item>중구</item>
+        <item>성동구</item>
+        <item>광진구</item>
+        <item>강동구</item>
+        <item>송파구</item>
+        <item>강남구</item>
+        <item>서초구</item>
+        <item>동작구</item>
+        <item>관악구</item>
+        <item>금천구</item>
+        <item>영등포구</item>
+        <item>양천구</item>
+        <item>강서구</item>
+        <item>구로구</item>
+        <item>용산구</item>
+    </string-array>
+    <string-array name="maxNumber">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+    </string-array>
+    <string-array name="sports">
+        <item>축구</item>
+        <item>농구</item>
+        <item>야구</item>
+        <item>족구</item>
+        <item>배드민턴</item>
+        <item>헬스</item>
+        <item>등산</item>
+        <item>사이클</item>
+        <item>테니스</item>
+    </string-array>
+
+</resources>
+

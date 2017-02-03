@@ -1,0 +1,11 @@
+import java.io.IOException;
+import java.net.Socket;
+import java.net.UnknownHostException;
+
+public class main {
+	public static void main(String[] args) throws UnknownHostException, IOException {
+		Socket socket = new Socket("10.100.4.72", 2233);
+		
+		System.out.println(socket.getPort());
+	}
+}
