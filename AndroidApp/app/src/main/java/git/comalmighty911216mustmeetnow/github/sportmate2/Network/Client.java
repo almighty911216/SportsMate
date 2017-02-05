@@ -23,6 +23,7 @@ import git.comalmighty911216mustmeetnow.github.sportmate2.Object.User;
 public class Client {
     public static final String TAG_CLIENT = "Client";
     public static final String SERVERIP = "127.0.0.1";
+    public static final int MAINSERVERPORT = 9123;
     public static final int SERVERPORT = 8888;
     public InetAddress inetAddress;
     private Thread thread;
@@ -39,8 +40,15 @@ public class Client {
     private User user;
     private ChatAdapter chatAdapter;
 
+    //메인서버소켓
+    private Socket mainSocket;
+    private BufferedReader mainInMsg;
+    private PrintWriter mainOutMsg;
+
 
     public Client(ChatAdapter _chatAdapter) {
+        mainSocket = null;
+
         user = new User();
         user.setName("test");
         socket = null;
@@ -52,6 +60,10 @@ public class Client {
                 chatAdapter.add(m.getMsg().toString());
             }
         };
+    }
+
+    public void connectMainServer() {
+        mainSocket = new Socket("192.168.43.111", 9123);
     }
 
     // 젤리빈 이상에서는 메인스레드에서 소켓통신 안됨 -> 별도 스레드로 처리

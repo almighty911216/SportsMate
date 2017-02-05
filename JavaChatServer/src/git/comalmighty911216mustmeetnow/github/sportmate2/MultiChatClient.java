@@ -143,7 +143,7 @@ public class MultiChatClient implements ActionListener, Runnable{
 	public void connectServer() {
 		try {
 			// 소켓 생성
-			socket = new Socket(ip,9999);
+			socket = new Socket(ip,9648);
 			System.out.println("[Client]Server 연결 성공!!");
 			
 			// 입출력 스트림 생성

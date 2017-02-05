@@ -1,0 +1,30 @@
+{
+"DESCRIPTION" : {"NAME":"이름","ADDRESS":"주소","AGE":"나이","SEX":"성별","ID":"ID","FAVORSPOR1":"선호운동1","FAVORSPOR2":"선호운동2","FAVORSPOR3":"선호운동3"},
+"DATA" : [
+{"NAME":"김철수","ADDRESS":"송파구","AGE":"23","SEX":"남","ID":"1","FAVORSPOR1":"축구","FAVORSPOR2":"족구","FAVORSPOR3":"야구"},
+{"NAME":"이영희","ADDRESS":"강남구","AGE":"21","SEX":"여","ID":"2","FAVORSPOR1":"축구","FAVORSPOR2":"족구","FAVORSPOR3":"야구"},
+{"NAME":"김갑환","ADDRESS":"강동구","AGE":"41","SEX":"남","ID":"3","FAVORSPOR1":"야구","FAVORSPOR2":"탁구","FAVORSPOR3":"테니스"},
+{"NAME":"최번개","ADDRESS":"강서구","AGE":"47","SEX":"남","ID":"4","FAVORSPOR1":"베드민턴","FAVORSPOR2":"축구","FAVORSPOR3":"탁구"},
+{"NAME":"소닉","ADDRESS":"광진구","AGE":"25","SEX":"남","ID":"5","FAVORSPOR1":"야구","FAVORSPOR2":"축구","FAVORSPOR3":"베드민턴"},
+{"NAME":"부들부들","ADDRESS":"영등포구","AGE":"33","SEX":"남","ID":"6","FAVORSPOR1":"테니스","FAVORSPOR2":"비치발리볼","FAVORSPOR3":"축구"},
+{"NAME":"응아니얌","ADDRESS":"관악구","AGE":"13","SEX":"남","ID":"7","FAVORSPOR1":"비치발리볼","FAVORSPOR2":"족구","FAVORSPOR3":"야구"},
+{"NAME":"돼지갈비","ADDRESS":"마포구","AGE":"23","SEX":"남","ID":"8","FAVORSPOR1":"축구","FAVORSPOR2":"족구","FAVORSPOR3":"베드민턴"},
+{"NAME":"떡볶이","ADDRESS":"서대문구","AGE":"23","SEX":"남","ID":"9","FAVORSPOR1":"베드민턴축구","FAVORSPOR2":"족구","FAVORSPOR3":"베드민턴"},
+{"NAME":"순대","ADDRESS":"동대문구","AGE":"23","SEX":"남","ID":"10","FAVORSPOR1":"베드민턴","FAVORSPOR2":"족구","FAVORSPOR3":"야구"},
+{"NAME":"참","ADDRESS":"광진구","AGE":"23","SEX":"여","ID":"11","FAVORSPOR1":"축구","FAVORSPOR2":"족구","FAVORSPOR3":"야구"},
+{"NAME":"참이슬","ADDRESS":"종로구","AGE":"23","SEX":"남","ID":"12","FAVORSPOR1":"테니스","FAVORSPOR2":"족구","FAVORSPOR3":"야구"},
+{"NAME":"막걸리","ADDRESS":"성북구","AGE":"23","SEX":"여","ID":"13","FAVORSPOR1":"축구","FAVORSPOR2":"족구","FAVORSPOR3":"야구"},
+{"NAME":"전구지","ADDRESS":"은평구","AGE":"23","SEX":"남","ID":"14","FAVORSPOR1":"비치발리볼","FAVORSPOR2":"족구","FAVORSPOR3":"야구"},
+{"NAME":"무우말랭이","ADDRESS":"송파구","AGE":"23","SEX":"남","ID":"15","FAVORSPOR1":"축구","FAVORSPOR2":"테니스","FAVORSPOR3":"야구"},
+{"NAME":"김","ADDRESS":"송파구","AGE":"23","SEX":"여","ID":"16","FAVORSPOR1":"축구","FAVORSPOR2":"족구","FAVORSPOR3":"야구"},
+{"NAME":"돼지찌개","ADDRESS":"강남구","AGE":"23","SEX":"남","ID":"17","FAVORSPOR1":"축구","FAVORSPOR2":"족구","FAVORSPOR3":"야구"},
+{"NAME":"소고기국","ADDRESS":"강남구","AGE":"23","SEX":"남","ID":"18","FAVORSPOR1":"비치발리볼","FAVORSPOR2":"족구","FAVORSPOR3":"야구"},
+{"NAME":"미역국","ADDRESS":"강동구","AGE":"23","SEX":"남","ID":"19","FAVORSPOR1":"테니스","FAVORSPOR2":"족구","FAVORSPOR3":"야구"},
+{"NAME":"떡국","ADDRESS":"강서구","AGE":"23","SEX":"여","ID":"20","FAVORSPOR1":"축구","FAVORSPOR2":"족구","FAVORSPOR3":"야구"},
+{"NAME":"수제비","ADDRESS":"영등포구","AGE":"23","SEX":"남","ID":"21","FAVORSPOR1":"축구","FAVORSPOR2":"족구","FAVORSPOR3":"야구"},
+{"NAME":"순두부","ADDRESS":"마포구","AGE":"23","SEX":"남","ID":"22","FAVORSPOR1":"비치발리볼","FAVORSPOR2":"테니스","FAVORSPOR3":"야구"},
+{"NAME":"갈비찜","ADDRESS":"관악구","AGE":"23","SEX":"남","ID":"23","FAVORSPOR1":"축구","FAVORSPOR2":"족구","FAVORSPOR3":"야구"},
+{"NAME":"김치찜","ADDRESS":"서대문구","AGE":"23","SEX":"남","ID":"24","FAVORSPOR1":"테니스","FAVORSPOR2":"족구","FAVORSPOR3":"야구"},
+{"NAME":"삼겹살","ADDRESS":"동대문구","AGE":"23","SEX":"여","ID":"25","FAVORSPOR1":"야구","FAVORSPOR2":"축구","FAVORSPOR3":"테니스"}
+]
+}

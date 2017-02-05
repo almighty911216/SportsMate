@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_chat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/chatBackground"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="git.comalmighty911216mustmeetnow.github.sportmate2.MainActivity"
+    tools:showIn="@layout/app_bar_chat">
+
+    <ListView
+        android:id="@+id/ListVew_chatroom"
+        android:layout_width="match_parent"
+        android:layout_height="480dp">
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/EditText_InputChatMsg"
+            android:fontFamily="sans-serif"
+            android:textSize="25sp">
+        </EditText>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Btn_Send"
+            android:text="SEND">
+        </Button>
+    </LinearLayout>
+</LinearLayout>
